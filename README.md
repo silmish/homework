@@ -31,6 +31,14 @@ pip install uvicorn[standard]
 
 If not familiar with the framework it comes with an interactive documentation. Within this project it can be used with localhost:8000/docs. All the endpoints can be tested within the docs.
 
+### How to run the app
+
+In the project folder use command:
+`````
+uvicorn main:app --reload
+`````
+To start the localhost.
+
 ### Example uses of the endpoints
 
 `````
