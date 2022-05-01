@@ -6,6 +6,8 @@ My goal was to use some new framework that had not used before and create the wa
 
 The API has been built with python fastapi framework. No external database has been used, so data do not persist between restarts. The product information has been hardcoded, while orders can be generated and manipulated with the API.
 
+The project does not include tests but these can be added if needed.
+
 Only one of the homework goals could not be met. This is goal 3. make the app able to listen and configure ports. This is for me a new topic, been researching the topic but unfortunately with this time frame could not solve how it can be implemented into this project. Would like to discuss and hear more how this is meant to be done in this type of APIs. 
 
 Time used for the project was:
