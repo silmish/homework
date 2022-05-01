@@ -79,7 +79,7 @@ Replace order id with the one generated earlier.
 `````
 GET /api/orders/{order_id}/products
 
-Get product information regarding a order.
+Get product information regarding an order.
 
 curl -X 'GET' \
   'http://127.0.0.1:8000/api/orders/aad70c7c-4af9-46a6-92be-5be8b43dd9d3/products' \
@@ -91,7 +91,7 @@ Replace order id with the one generated earlier.
 `````
 POST /api/orders/{order_id}/products
 
-Add an product to the order using product ID.
+Add a product to the order using product ID.
 
 curl -X 'POST' \
   'http://127.0.0.1:8000/api/orders/aad70c7c-4af9-46a6-92be-5be8b43dd9d3/products' \
@@ -124,7 +124,7 @@ Replace order id with the one generated earlier.
 `````
 PATCH /api/orders/{order_id}/products/{product_id}
 
-This end point has 2 functions as stated in the homework assesment. For some reason the docs did not work with this.
+This end point has 2 functions as stated in the homework assesment. For some reason the docs did not work with this so exmples lack curls.
 
 http://127.0.0.1:8000/api/orders/3e6de37b-f890-4443-b536-9d1e393963ac/products/123
 
