@@ -25,7 +25,7 @@ Uvicorn
 `````
 pip install uvicorn[standard]
 `````
-## API functionalty
+## API functionality
 
 If not familiar with the framework it comes with an interactive documentation. Within this project it can be used with localhost:8000/docs. All the endpoints can be tested within the docs.
 
